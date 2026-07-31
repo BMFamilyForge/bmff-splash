@@ -1,66 +1,101 @@
 <div style="background-color: #000000; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #c0c0c0; line-height: 1.6; margin: 0; padding: 0;">
 
+    <!-- HERO SECTION -->
     <section id="hero-header" style="text-align: center; padding: 60px 20px 80px 20px; background: radial-gradient(circle at center, #1a1a1a 0%, #000000 80%); border-bottom: 2px solid #333;">
         <div style="display: flex; flex-direction: column; align-items: center;">
             <img src="Top.png" alt="Blue Mountain Family Forge Official Logo" style="max-width: 425px; height: auto; margin-bottom: 25px; filter: drop-shadow(0 0 10px rgba(255, 106, 0, 0.3));">
             <h1 style="color: #ff6a00; font-size: 3em; font-weight: 900; text-transform: uppercase; letter-spacing: 5px; text-shadow: 0 0 15px rgba(255, 106, 0, 0.6); margin-bottom: 8px; margin-top: 0;">Blue Mountain Family Forge</h1>
-            <h2 style="color: #4da6ff; font-size: 1.6em; font-weight: 300; letter-spacing: 2px; text-shadow: 0 0 10px rgba(77, 166, 255, 0.4); margin-top: 0;">COMING SOON TO WALLA WALLA, WA</h2>
+            <h2 style="color: #4da6ff; font-size: 1.6em; font-weight: 300; letter-spacing: 2px; text-shadow: 0 0 10px rgba(77, 166, 255, 0.4); margin-top: 0;">COMING SOON TO THE WALLA WALLA VALLEY</h2>
             <img src="Two.png" alt="Blue Mountain Family Forge Interior Concept" style="max-width: 100%; height: auto; border-radius: 8px; border: 2px solid #333; box-shadow: 0 0 30px rgba(255, 106, 0, 0.2); margin-top: 40px; filter: contrast(110%) brightness(95%);">
         </div>
     </section>
 
-    <section class="forge-wrapper" style="background-color: #0a0a0a;">
+    <!-- INTRO SECTION -->
+    <section class="forge-wrapper" style="background-color: #0a0a0a; padding-bottom: 20px;">
         <div class="forge-main-content">
             <h1 class="forge-title">The Ultimate Entertainment Hub</h1>
             <p class="forge-intro">
-                Blue Mountain Family Forge is Walla Walla’s premier destination for next-generation play, high-tech immersive gaming, and premium relaxation. Powered by a frictionless, cashless RFID wristband system, your family can spend less time waiting in lines and more time making memories.
+                Blue Mountain Family Forge is the valley's premier destination for next-generation play, high-tech arcade gaming, and premium relaxation. Powered by a frictionless, cashless RFID wristband system, your family can spend less time waiting in lines and more time making memories.
             </p>
-
-            <div class="attractions-grid">
-                <div class="attraction-card">
-                    <h3 class="card-title">🎡 The "Mega" Soft Play</h3>
-                    <p>A massive, multi-level inclusive playground designed to burn off endless energy. Featuring slides, obstacles, and interactive zones, it is built tough enough for kids and accessible enough for parents to join in on the fun.</p>
-                </div>
-                <div class="attraction-card">
-                    <h3 class="card-title">🗝️ Premium Escape Rooms</h3>
-                    <p>Step into our fully immersive, high-tech escape room experiences. Perfect for family teamwork in our enchanting <em>Magic Emporium</em> room, or test your nerve with friends in our intense, 18+ <em>Cabin in the Woods</em> challenge.</p>
-                </div>
-                <div class="attraction-card">
-                    <h3 class="card-title">🕹️ The Lean-Tech Arcade</h3>
-                    <p>No tokens, no coins, no hassle. Just tap your Forge RFID wristband to play a curated mix of cutting-edge interactive games and beloved retro classics. Instant play, instant fun.</p>
-                </div>
-                <div class="attraction-card">
-                    <h3 class="card-title">🍕 The Parent's Oasis (Cafe & Bar)</h3>
-                    <p>You shouldn't have to "endure" a play center. Relax in our premium cafe and bar featuring local craft beer, wine, and a fresh menu. Enjoy comfortable seating and clear sightlines to the play structures so you can unwind while they play.</p>
-                </div>
-            </div>
         </div>
     </section>
 
+    <!-- ATTRACTIONS SHOWCASE (ALTERNATING LAYOUT) -->
+    <section class="forge-wrapper" style="background-color: #0a0a0a; padding-top: 0;">
+        <div class="forge-main-content">
+            
+            <!-- Feature 1: Soft Play -->
+            <div class="showcase-row">
+                <div class="showcase-text">
+                    <h3 class="card-title">🎡 The "Mega" Soft Play & Toddler Zone</h3>
+                    <p>A massive, multi-level inclusive playground designed to burn off endless energy. Featuring slides, obstacles, and interactive zones, it is built tough enough for kids and accessible enough for parents to join in on the fun. We also feature a dedicated, padded toddler play corner for our smallest guests!</p>
+                </div>
+                <div class="showcase-image">
+                    <img src="gallery_play.png" alt="Kids enjoying the Mega Soft Play" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);">
+                </div>
+            </div>
+
+            <!-- Feature 2: Billiards & Retro (Reversed) -->
+            <div class="showcase-row reverse">
+                <div class="showcase-text">
+                    <h3 class="card-title">🎱 Billiards & Retro Emulation</h3>
+                    <p>Step up to our custom-built tabletop arcade cabinets to play thousands of classic console games, or test your skills on one of our premium, resurfaced pool tables. Perfect for some friendly family competition!</p>
+                </div>
+                <div class="showcase-image">
+                    <img src="gallery_emulation.png" alt="Family playing retro emulation and billiards" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);">
+                </div>
+            </div>
+
+            <!-- Feature 3: Parent's Oasis & Stage -->
+            <div class="showcase-row">
+                <div class="showcase-text">
+                    <h3 class="card-title">🎤 The Parent's Oasis (Cafe & Stage)</h3>
+                    <p>You shouldn't have to "endure" a play center. Relax in our premium cafe featuring a fresh, hot menu. Enjoy comfortable seating and clear sightlines to the play structures, or catch live local music and community events on our main stage!</p>
+                </div>
+                <div class="showcase-image">
+                    <img src="gallery_stage.png" alt="Live music on the main stage" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);">
+                </div>
+            </div>
+
+            <!-- Feature 4: Lean-Tech Arcade (Reversed) -->
+            <div class="showcase-row reverse">
+                <div class="showcase-text">
+                    <h3 class="card-title">🕹️ The Lean-Tech Arcade</h3>
+                    <p>No tokens, no coins, no hassle. Just tap your Forge RFID wristband to play a curated mix of cutting-edge interactive games and ticketless redemption prizes. Instant play, instant fun.</p>
+                </div>
+                <div class="showcase-image">
+                    <img src="gallery_cafe.png" alt="Parents enjoying the cafe oasis" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- COMMUNITY SECTION -->
     <div class="forge-wrapper">
         <section class="forge-main-content">
-            <h1 class="forge-title" style="margin-top: 40px;">Our Vision for an Inclusive Walla Walla</h1>
+            <h1 class="forge-title" style="margin-top: 40px;">Our Vision for an Inclusive Community</h1>
             <p class="forge-intro">
-                Walla Walla is built on community, but for many of our neighbors, there are still significant gaps in where they can go to feel truly welcome. As a local dad, I realized our community deserved more than just a place to play—it deserved a <strong>"Third Place"</strong> where every resident, regardless of age or ability, has a seat at the table.
+                Our valley is built on community, but for many of our neighbors, there are still significant gaps in where they can go to feel truly welcome. As a local dad, I realized our community deserved more than just a place to play—it deserved a <strong>"Third Place"</strong> where every resident, regardless of age or ability, has a seat at the table.
             </p>
 
             <hr class="forge-divider">
 
             <div class="impact-block">
                 <h2 class="orange-text">01. Closing the Inclusivity Gap</h2>
-                <p>Our city has a vibrant population, yet two specific groups are often left without dedicated spaces for recreation. We are committed to changing that:</p>
+                <p>Our valley has a vibrant population, yet two specific groups are often left without dedicated spaces for recreation. We are committed to changing that:</p>
                 <ul>
-                    <li><strong>Adults with Mental Disabilities:</strong> We host dedicated weekly sessions where adults with developmental or mental disabilities can enjoy our multi-level play structures in a dignified, supportive, and age-appropriate atmosphere.</li>
+                    <li><strong>Adults with Disabilities:</strong> We host dedicated weekly sessions where adults with developmental or cognitive disabilities can enjoy our multi-level play structures and arcade in a dignified, supportive, and age-appropriate atmosphere.</li>
                     <li><strong>Sensory-Friendly Hours:</strong> Once a week, we "turn down the volume." We dim the lights and silence the arcade cabinets to provide a calm, low-stimulation environment for children and adults with sensory sensitivities.</li>
                 </ul>
             </div>
 
             <div class="impact-block">
-                <h2 class="orange-text">02. Strengthening the Local Workforce</h2>
-                <p>The Forge serves as a premier hub for the Walla Walla business community, from downtown banks to local wineries.</p>
+                <h2 class="orange-text">02. Strengthening Community Ties</h2>
+                <p>The Forge serves as a premier hub for the valley's community and local families.</p>
                 <ul>
-                    <li><strong>Team Building:</strong> Our escape rooms offer a modern way for teams to foster communication and problem-solving.</li>
-                    <li><strong>Facility Rentals:</strong> Our versatile facility is available for company functions, holiday events, and training sessions, complete with professional catering and a comfortable bar environment.</li>
+                    <li><strong>Facility Rentals & Events:</strong> Our versatile facility is available for private buy-outs, community events, and birthday parties.</li>
+                    <li><strong>Weekly Tournaments:</strong> We host regular pool tournaments and competitive community events to bring neighbors together for friendly competition.</li>
                 </ul>
             </div>
 
@@ -68,7 +103,7 @@
                 <h2 class="orange-text">03. The "Parenting Gap" Solution</h2>
                 <p>We believe parents shouldn't have to "endure" a play center; they should enjoy it.</p>
                 <ul>
-                    <li><strong>Parent Drop-Off Program:</strong> Once a week, we offer a 4-hour supervised drop-off window. Parents can enjoy a date night downtown while kids play in a secure, RFID-monitored environment.</li>
+                    <li><strong>Parent Drop-Off Program:</strong> Once a month, we offer a 4-hour supervised drop-off window. Parents can enjoy a date night while the kids play in a secure, RFID-monitored environment with dinner included!</li>
                 </ul>
             </div>
         </section>
@@ -77,20 +112,54 @@
 
 <style>
     .forge-wrapper { background-color: #000; color: #ccc; padding: 60px 20px; }
-    .forge-main-content { max-width: 900px; margin: 0 auto; line-height: 1.8; }
+    .forge-main-content { max-width: 1000px; margin: 0 auto; line-height: 1.8; }
     .forge-title { color: #FF8C00; text-align: center; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 20px; font-size: 2.5rem; }
     .forge-intro { font-size: 1.2rem; text-align: center; color: #fff; margin-bottom: 40px; }
     .forge-divider { border: 0; height: 1px; background: linear-gradient(to right, transparent, #FF8C00, transparent); margin: 40px 0; }
     
-    /* New Grid Styles for Attractions */
-    .attractions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; margin-bottom: 40px; }
-    .attraction-card { background: #111; border: 1px solid #333; border-radius: 8px; padding: 25px; transition: 0.3s; }
-    .attraction-card:hover { border-color: #FF8C00; box-shadow: 0 0 15px rgba(255, 140, 0, 0.1); transform: translateY(-3px); }
-    .card-title { color: #FF8C00; margin-top: 0; font-size: 1.4rem; border-bottom: 1px solid #222; padding-bottom: 10px; margin-bottom: 15px; }
+    /* Alternating Showcase Layout Styles */
+    .showcase-row {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 60px;
+        background: #111;
+        border: 1px solid #222;
+        border-radius: 12px;
+        padding: 30px;
+        transition: 0.3s;
+    }
+    .showcase-row:hover {
+        border-color: #FF8C00; 
+        box-shadow: 0 0 15px rgba(255, 140, 0, 0.1);
+    }
+    .showcase-row.reverse {
+        flex-direction: row-reverse;
+    }
+    .showcase-text {
+        flex: 1;
+    }
+    .showcase-image {
+        flex: 1;
+    }
+    
+    .card-title { color: #FF8C00; margin-top: 0; font-size: 1.6rem; border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 15px; }
     
     .orange-text { color: #FF8C00; margin-top: 40px; border-bottom: 1px solid #333; padding-bottom: 10px; text-transform: uppercase; }
     .impact-block { margin-bottom: 50px; }
     .impact-block ul { list-style: none; padding-left: 0; }
     .impact-block li { margin-bottom: 20px; padding-left: 20px; border-left: 3px solid #FF8C00; }
     strong { color: #fff; }
+
+    /* Mobile Responsiveness for Showcase */
+    @media (max-width: 768px) {
+        .showcase-row, .showcase-row.reverse {
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+        }
+        .card-title {
+            border-bottom: none;
+        }
+    }
 </style>
